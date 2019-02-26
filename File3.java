@@ -1,0 +1,20 @@
+package p1;
+
+import java.util.Scanner;
+
+public class File3 {
+
+	public static void main(String[] args) {
+		int a,b;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first number");
+		a = sc.nextInt();
+		System.out.println("Enter second number");
+		b = sc.nextInt();
+		System.out.println("The sum of "+a+" and "+b+" is : "+(a+b));
+		System.out.println("The multiplication of "+a+" and "+b+" is : "+(a*b));
+		
+
+	}
+
+}
